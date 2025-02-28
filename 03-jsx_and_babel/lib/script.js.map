@@ -1,0 +1,30 @@
+{
+  "version": 3,
+  "file": "script.js",
+  "names": [
+    "a",
+    "container",
+    "React",
+    "createElement",
+    "className",
+    "style",
+    "fontSize",
+    "color",
+    "console",
+    "log",
+    "reactRoot",
+    "ReactDOM",
+    "createRoot",
+    "document",
+    "querySelector",
+    "render"
+  ],
+  "sources": [
+    "../script.js"
+  ],
+  "sourcesContent": [
+    "\r\n\r\n// creating a container using JSX\r\n\r\nconst a = \"Hi!\";\r\n\r\nconst container = (\r\n  <div className=\"jsx-div\">\r\n    <h2 style={{ fontSize: \"16px\", color: \"red\" }}>\r\n      {a}, This is a div created using JSX\r\n    </h2>\r\n  </div>\r\n);\r\nconsole.log(container);\r\nconst reactRoot = ReactDOM.createRoot(document.querySelector(\"#react-root\"));\r\nreactRoot.render(container);\r\n"
+  ],
+  "mappings": "AAEA;;AAEA,MAAMA,CAAC,GAAG,KAAK;AAEf,MAAMC,SAAS,gBACbC,KAAA,CAAAC,aAAA;EAAKC,SAAS,EAAC;AAAS,gBACtBF,KAAA,CAAAC,aAAA;EAAIE,KAAK,EAAE;IAAEC,QAAQ,EAAE,MAAM;IAAEC,KAAK,EAAE;EAAM;AAAE,GAC3CP,CAAC,EAAC,mCACD,CACD,CACN;AACDQ,OAAO,CAACC,GAAG,CAACR,SAAS,CAAC;AACtB,MAAMS,SAAS,GAAGC,QAAQ,CAACC,UAAU,CAACC,QAAQ,CAACC,aAAa,CAAC,aAAa,CAAC,CAAC;AAC5EJ,SAAS,CAACK,MAAM,CAACd,SAAS,CAAC",
+  "ignoreList": []
+}

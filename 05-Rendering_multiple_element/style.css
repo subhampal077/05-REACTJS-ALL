@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, sans-serif, serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding-block: 32px;
+}
+
+.card {
+  /* margin: 32px; */
+  max-width: 328px;
+  width: 100%;
+  background-color: rgb(86, 145, 227);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: contain;
+}
+
+.card h1 {
+  padding-block: 16px;
+  font-size: 18px;
+}
+
+.card p {
+  margin-bottom: 14px;
+}
+
+.text-section {
+  padding-inline: 24px;
+}

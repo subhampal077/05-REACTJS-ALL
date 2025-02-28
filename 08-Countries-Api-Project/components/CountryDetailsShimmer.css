@@ -1,0 +1,20 @@
+
+
+.shimmer-image1 {
+    min-height: 260px;
+    background-color: rgba(128, 128, 128, 0.213);
+}
+
+.shimmer-name1 {
+    width: 500px;
+    max-width: 100%;
+    min-height: 40px;
+    background-color: rgba(128, 128, 128, 0.213);
+}
+
+.shimmer-details1 p {
+    width: 500px;
+    max-width: 100%;
+    min-height: 20px;
+    background-color: rgba(128, 128, 128, 0.213);
+}

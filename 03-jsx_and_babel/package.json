@@ -1,0 +1,19 @@
+{
+  "name": "10-react-tutorial-2024",
+  "version": "1.0.0",
+  "main": "babel.js",
+  "scripts": {
+    "build": "babel ./script.js -d lib --source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7"
+  }
+}

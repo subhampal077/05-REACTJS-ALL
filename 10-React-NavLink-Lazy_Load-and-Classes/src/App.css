@@ -1,0 +1,22 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+
+/* attribute selector */
+
+/* [aria-current="page"] {
+  text-decoration: underline;
+  text-decoration-color: blue;
+  color: blue;
+  font-weight: 500;
+} */
+
+/* .active {
+  text-decoration: underline;
+  text-decoration-color: blue;
+  color: blue;
+  font-weight: 500;
+} */
