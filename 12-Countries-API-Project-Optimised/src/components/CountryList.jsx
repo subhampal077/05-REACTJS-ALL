@@ -7,7 +7,8 @@ function CountryList({ searchInput, selectInput }) {
 
   async function fetchCardData() {
     try {
-      const res = await fetch("https://restcountries.com/v3.1/all");
+      // const res = await fetch("https://restcountries.com/v3.1/all");
+      const res = await fetch("https://restcountries.com/v3.1/all?fields=name,flags,region,population,subregion,capital,tld,currencies,languages,borders");
       const data = await res.json();
       // console.log(data);
       data?.length > 0 && setCardData(data);
